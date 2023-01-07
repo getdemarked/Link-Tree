@@ -79,7 +79,7 @@ function App() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <Facebook color="#fff" size={24} className="icon-style" /> Page
+            <Facebook color="#fff" size={24} className="icon-style" /> Facebook
           </a>
 
           {/* Twitter */}
@@ -97,7 +97,7 @@ function App() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <Linkedin color="#fff" size={24} className="icon-style" /> Linkedin
+            <Linkedin color="#fff" size={24} className="icon-style" /> LinkedIn
           </a>
 
           {/* Instagram */}
