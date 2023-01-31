@@ -62,6 +62,15 @@ function App() {
             <SiReadthedocs color="#fff" size={24} className="icon-style" /> Whitepaper
           </a>
 
+          {/* Pitch Deck */}
+          <a
+            href="https://heroesuprising.com/docs/HeroesUprising.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <SiReadthedocs color="#fff" size={24} className="icon-style" /> Pitch Deck
+          </a>
+
           {/* Discord Server */}
           <a
             href="https://discord.gg/f3pJ7by9yv"
