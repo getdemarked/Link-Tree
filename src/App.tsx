@@ -140,7 +140,7 @@ function App() {
           </a>
           {/* OpenSea */}
           <a
-            href="https://medium.com/@heroesuprising"
+            href="https://opensea.io/collection/huverse-pass-1"
             target="_blank"
             rel="noreferrer noopener"
           >
