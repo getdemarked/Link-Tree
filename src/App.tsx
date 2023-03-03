@@ -9,11 +9,13 @@ import {
   Twitter,
   Medium,
 } from "@icons-pack/react-simple-icons";
-import { SiReadthedocs } from "react-icons/si";
+import { SiReadthedocs, SiGooglecalendar } from "react-icons/si";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { Icon } from '@iconify/react';
 
 function App() {
   return (
@@ -53,6 +55,16 @@ function App() {
             Partner With Us
           </a>
 
+          {/* Cal App */}
+          <a
+            href="https://cal.com/allan-brando-catayoc/30-min-meeting--heroes-uprising-"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <SiGooglecalendar color="#fff" size={24} className="icon-style" /> Setup a Call
+          </a>
+          
+
            {/* Whitepaper */}
            <a
             href="https://docs.heroesuprising.com"
@@ -60,15 +72,6 @@ function App() {
             rel="noreferrer noopener"
           >
             <SiReadthedocs color="#fff" size={24} className="icon-style" /> Whitepaper
-          </a>
-
-          {/* Pitch Deck */}
-          <a
-            href="https://heroesuprising.com/docs/HeroesUprising.pdf"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <SiReadthedocs color="#fff" size={24} className="icon-style" /> Pitch Deck
           </a>
 
           {/* Discord Server */}
@@ -135,8 +138,15 @@ function App() {
           >
             <Medium color="#fff" size={24} className="icon-style" /> Medium
           </a>
-
-         
+          {/* OpenSea */}
+          <a
+            href="https://medium.com/@heroesuprising"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Icon icon="simple-icons:opensea" color="#fff" className="icon-style" /> Opensea HUVERSE
+          </a>
+          
 
 
         </section>
